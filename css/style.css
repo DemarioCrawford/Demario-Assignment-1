@@ -4,8 +4,8 @@ body{
     color: white;
 }
 
-input[type="button"] {
-    padding: 10px;
+input[type="button"],button {
+    padding: 12px;
     border-radius: 30px;
     border: 0px;
     margin-left: 20px;
@@ -23,16 +23,17 @@ input[type="button"] {
     display: flex;
     align-items: center;
     flex-direction: row;
-   margin-top: 220px;
-   margin-left: 60px;
+   margin-top: 100px;
+  
    
 }
 
 .section-3 {
-    margin-left: 500px;
-    margin-top: 150px;
-    margin-bottom: 150px;
-  
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 80px
 }
 
 .picturegif1 {
@@ -40,7 +41,7 @@ input[type="button"] {
 }
 
 .Try5sessions {
-    margin-left: 6px;
+    
     width: 60px;
     height: 100px;
     
@@ -51,14 +52,19 @@ input[type="button"] {
     align-items: center;
     flex-direction: row;
     margin-left: 240px;
+    gap: 100px;
 }
 
 .para {
     display: flex;
-    text-align:justify;
-    flex-direction: row;
-    margin-left: 240px;
+    text-align: center;
     font-size: 15px;
-    margin-right: 650px;
+    margin-left: 160px;
+}
+.section-flex{
+    display: flex;
+    flex-direction: column; justify-content: center;
+    align-items: center;
+    margin-left: 200px;
 }
 
