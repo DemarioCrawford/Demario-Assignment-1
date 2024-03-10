@@ -1,3 +1,64 @@
-h1 {
-    font-size: 10em;
+body{
+    margin: 15px;
+    font-family: Arial;
+    color: white;
 }
+
+input[type="button"] {
+    padding: 10px;
+    border-radius: 30px;
+    border: 0px;
+    margin-left: 20px;
+}
+
+.section-1 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    margin-right: 100px;
+}
+
+.section-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+   margin-top: 220px;
+   margin-left: 60px;
+   
+}
+
+.section-3 {
+    margin-left: 500px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+  
+}
+
+.picturegif1 {
+        margin: 0px;
+}
+
+.Try5sessions {
+    margin-left: 6px;
+    width: 60px;
+    height: 100px;
+    
+}
+
+.lastimg {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 240px;
+}
+
+.para {
+    display: flex;
+    text-align:justify;
+    flex-direction: row;
+    margin-left: 240px;
+    font-size: 15px;
+    margin-right: 650px;
+}
+
